@@ -1,0 +1,840 @@
+/* ========================================= 寬螢幕 ========================================= */
+@media screen and (min-width: 1480px) and (max-width: 1920px) {
+    .title h1 {
+        font-size: 40px;
+        font-weight: 400;
+        color: #fff;
+        position: absolute;
+        top: 220px;
+        left: 450px;
+        text-shadow: 0px 0px 15px #fff;
+        letter-spacing: 6px;
+    }
+    .title span {
+        font-family: "Aller Light";
+        font-weight: 100;
+        font-size: 22px;
+        color: #c79d18;
+        position: absolute;
+        top: 290px;
+        left: 450px;
+    }
+}
+
+/* ========================================= 平板 ========================================= */
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .menu {
+        margin-left: 0;
+        float: left;
+        text-align: center;
+    }
+    .menu li a {
+        font-size: 15px;
+    }
+    .above {
+        position: relative;
+        top: 15px;
+        right: 35px;
+        float: right;
+    }
+    .theme-box h3 {
+        font-size: 22px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:10px;
+        left:60px;
+    }
+    .theme-box span {
+        font-family: "Aller Light";
+        font-size: 15px;
+        color: #c79d18;
+        position: absolute;
+        top:60px;
+        left:60px;
+    }
+    .theme-box button {
+        position: absolute;
+        bottom:30px;
+        left: 60px;
+        background: #c79d18;
+    }
+    .remarks ul li {
+        margin-top: 10px;
+        padding: 0 2px;
+        list-style: none;
+        display: inline-block;
+        color: #717171;
+    }
+    .title h1 {
+        font-size: 40px;
+        font-weight: 400;
+        color: #fff;
+        position: absolute;
+        top: 220px;
+        left: 40px;
+        text-shadow: 0px 0px 15px #fff;
+        letter-spacing: 6px;
+    }
+    .title span {
+        font-family: "Aller Light";
+        font-weight: 100;
+        font-size: 22px;
+        color: #c79d18;
+        position: absolute;
+        top: 290px;
+        left: 40px;
+    }
+    .one-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .one-box h3 {
+        font-size: 28px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:30px;
+        left:280px;
+    }
+    .one-box span {
+        font-family: "Aller Light";
+        font-size: 18px;
+        color: #c79d18;
+        position: absolute;
+        top:85px;
+        left: 280px;
+    }
+    .one-box button {
+        position: absolute;
+        bottom:30px;
+        left: 280px;
+        background: #c79d18;
+    }
+    .two-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .two-box h3 {
+        font-size: 28px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:30px;
+        left:280px;
+    }
+    .two-box span {
+        font-family: "Aller Light";
+        font-size: 18px;
+        color: #c79d18;
+        position: absolute;
+        top:85px;
+        left: 280px;
+    }
+    .two-box button {
+        position: absolute;
+        bottom:30px;
+        left: 280px;
+        background: #c79d18;
+    }
+    .news-list-date {
+        margin: 10px 0;
+        text-align: left;
+        color: #fff;
+    }
+    .news-tab {
+        padding: 5px;
+        text-align: center;
+        background: #b38b12;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .news-tab {
+        padding: 5px;
+        text-align: center;
+        background: #f7dc5c;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .news-box {
+        margin: 10px 0px;
+        display: inline-block;
+        text-align: center;
+    }
+    .index-news-title {
+        padding-right: 0;
+        text-align: left;
+    }
+    .index-news-title a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        text-align: left;
+    }
+    .index-news-date {
+        margin-left: 0px;
+        color: #282828;
+        text-align: left;
+    }
+    .overlay span {
+        font-size: 15px;
+        font-weight: 100;
+        color: #bc8f00;
+        position: relative;
+        right: 60px;
+    }
+    .ehover12 h2 {
+        position: relative;
+        top: -20px;
+        left: 0px;
+        overflow: hidden;
+        padding: 0;
+        background-color: transparent;
+        font-size: 28px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .news-list-top {
+        margin: 10px 0;
+        padding: 10px;
+        border: 2px solid #f2b116;
+        background-color: #1c1d1e;
+    }
+
+    .news-list-date-top {
+        margin-top: 10px;
+        margin-left: -10px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .news-tab-top {
+        margin: 10px;
+        padding: 6px 10px;
+        font-size: 13px;
+        text-align: center;
+        background: #f7dc5c;
+        border-radius: 10px;
+        display: inline-block;
+        line-height: 100%;
+    }
+
+    .news-title-top {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #c3aa5a;
+    }
+
+    .news-title-top a {
+        font-size: 18px;
+        color: #c3aa5a;
+        text-decoration: none;
+    }
+
+    .news-title-top a:hover {
+        color: #ffe38a;
+    }
+
+    .top-box {
+        margin: -10px -10px 0 0;
+        padding: 8px;
+        color: #0f0f0f;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #f2b116;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        margin-left: 0;
+        float: left;
+        text-align: center;
+    }
+    .menu li a {
+        padding: 20px 5px;
+        font-size: 15px;
+    }
+    .menu-icon {
+        margin-right: 0px;
+    }
+    .above {
+        position: relative;
+        top: 15px;
+        right: 0px;
+        float: right;
+    }
+    .title h1 {
+        font-size: 40px;
+        font-weight: 400;
+        color: #fff;
+        position: absolute;
+        top: 220px;
+        left: 80px;
+        text-shadow: 0px 0px 15px #fff;
+        letter-spacing: 6px;
+    }
+    .title span {
+        font-family: "Aller Light";
+        font-weight: 100;
+        font-size: 22px;
+        color: #c79d18;
+        position: absolute;
+        top: 290px;
+        left: 80px;
+    }
+    .one-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .one-box h3 {
+        font-size: 28px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:30px;
+        left:180px;
+    }
+    .one-box span {
+        font-family: "Aller Light";
+        font-size: 18px;
+        color: #c79d18;
+        position: absolute;
+        top:85px;
+        left: 180px;
+    }
+    .one-box button {
+        position: absolute;
+        bottom:30px;
+        left: 180px;
+        background: #c79d18;
+    }
+    .two-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .two-box h3 {
+        font-size: 28px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:30px;
+        left:180px;
+    }
+    .two-box span {
+        font-family: "Aller Light";
+        font-size: 18px;
+        color: #c79d18;
+        position: absolute;
+        top:85px;
+        left: 180px;
+    }
+    .two-box button {
+        position: absolute;
+        bottom:30px;
+        left: 180px;
+        background: #c79d18;
+    }
+    .news-tab {
+        padding: 5px;
+        text-align: center;
+        background: #f7dc5c;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .news-box {
+        margin: 10px 0px;
+        display: inline-block;
+        text-align: center;
+    }
+    .index-news-title {
+        padding-right: 0;
+        text-align: left;
+    }
+    .index-news-title a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        text-align: left;
+    }
+    .index-news-date {
+        margin-left: 0px;
+        color: #282828;
+        text-align: left;
+    }
+    .index-news-line {
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #ddbc57;
+    }
+}
+
+/* ========================================= 手機 ========================================= */
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .logo {
+        width: 120px;
+    }
+    .navbar-header {
+        margin-bottom: 15px;
+    }
+    .menu {
+        margin-left: 0;
+        float: left;
+        text-align: center;
+    }
+    .menu li a {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .above {
+        position: relative;
+        top: 0;
+        right: 0;
+        float: right;
+    }
+    .banner-casino {
+        background-size: 100%;
+        position: relative;
+        top: -10px;
+        text-align: center;
+        height: 240px;
+    }
+    .banner-sports {
+        background-size: 100%;
+        position: relative;
+        top: -10px;
+        text-align: center;
+        height: 240px;
+    }
+    .banner-slot {
+        background-size: 100%;
+        position: relative;
+        top: -10px;
+        text-align: center;
+        height: 240px;
+    }
+    .banner-lottery {
+        background-size: 100%;
+        position: relative;
+        top: -10px;
+        text-align: center;
+        height: 240px;
+    }
+    .banner-news {
+        background-size: 100%;
+        position: relative;
+        top: -10px;
+        text-align: center;
+        height: 240px;
+    }
+    .banner-about {
+        background-size: 100%;
+        position: relative;
+        top: -10px;
+        text-align: center;
+        height: 240px;
+    }
+    .theme-box h3 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:1060px;
+        left:30px;
+    }
+    .theme-box span {
+        font-family: "Aller Light";
+        font-size: 15px;
+        color: #c79d18;
+        position: relative;
+        top:30px;
+        left:-100px;
+    }
+    .theme-box button {
+        position: absolute;
+        bottom:20px;
+        left: 30px;
+        background: #c79d18;
+    }
+    .remarks ul li {
+        margin-top: 10px;
+        padding: 0px;
+        list-style: none;
+        display: inline-block;
+        color: #717171;
+    }
+    .title h1 {
+        font-size: 28px;
+        font-weight: 400;
+        color: #fff;
+        position: absolute;
+        top: 150px;
+        left: 30px;
+        text-shadow: 0px 0px 15px #fff;
+        letter-spacing: 6px;
+    }
+    .title span {
+        font-family: "Aller Light";
+        font-weight: 100;
+        font-size: 18px;
+        color: #c79d18;
+        position: absolute;
+        top: 145px;
+        left: 30px;
+    }
+    .one-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .one-box h3 {
+        font-size: 22px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:20px;
+        left:40px;
+    }
+    .one-box span {
+        font-family: "Aller Light";
+        font-size: 13px;
+        color: #c79d18;
+        position: absolute;
+        top:70px;
+        left: 40px;
+    }
+    .one-box button {
+        position: absolute;
+        bottom:30px;
+        left: 40px;
+        background: #c79d18;
+    }
+    .two-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .two-box h3 {
+        font-size: 22px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:20px;
+        left:40px;
+    }
+    .two-box span {
+        font-family: "Aller Light";
+        font-size: 13px;
+        color: #c79d18;
+        position: absolute;
+        top:70px;
+        left: 40px;
+    }
+    .two-box button {
+        position: absolute;
+        bottom:30px;
+        left: 40px;
+        background: #c79d18;
+    }
+    .news-list-date {
+        margin: 10px 0;
+        text-align: left;
+        color: #fff;
+    }
+    .news-tab {
+        padding: 5px;
+        text-align: center;
+        background: #f7dc5c;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .news-box {
+        margin: 10px 0px;
+        display: inline-block;
+        text-align: center;
+    }
+    .index-news-title {
+        padding-right: 0;
+        text-align: left;
+    }
+    .index-news-title a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        text-align: left;
+    }
+    .index-news-date {
+        margin-left: 0px;
+        color: #282828;
+        float: left;
+    }
+    .index-news-line {
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #ddbc57;
+    }
+    .member_formTwoCol .member_content{
+        width: calc(100% - 1px);
+    }
+    .member_formThreeCol .member_content{
+        width: calc(100% - 1px);
+    }
+    .news-list-top {
+        margin: 10px 0;
+        padding: 10px;
+        border: 2px solid #f2b116;
+        background-color: #1c1d1e;
+    }
+
+    .news-list-date-top {
+        margin-top: 10px;
+        margin-left: -10px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .news-tab-top {
+        margin: 10px;
+        padding: 6px 10px;
+        font-size: 13px;
+        text-align: center;
+        background: #f7dc5c;
+        border-radius: 10px;
+        display: inline-block;
+        line-height: 100%;
+    }
+
+    .news-title-top {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #c3aa5a;
+    }
+
+    .news-title-top a {
+        font-size: 18px;
+        color: #c3aa5a;
+        text-decoration: none;
+    }
+
+    .news-title-top a:hover {
+        color: #ffe38a;
+    }
+
+    .top-box {
+        margin: -10px -10px 0 0;
+        padding: 8px;
+        color: #0f0f0f;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #f2b116;
+        float: right;
+    }
+    .bt-range {
+        text-align: center;
+    }
+    .calendar-bt {
+        margin: 10px 0;
+        float: right;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menu {
+        margin-top: -20px;
+        margin-left: 0;
+        float: left;
+        text-align: center;
+    }
+    .menu li a {
+        font-size: 15px;
+    }
+    .theme-box h3 {
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+        position: absolute;
+        top:-10px;
+        left:30px;
+    }
+    .theme-box span {
+        font-family: "Aller Light";
+        font-size: 13px;
+        color: #c79d18;
+        position: absolute;
+        top:30px;
+        left:30px;
+    }
+    .theme-box button {
+        position: absolute;
+        bottom:10px;
+        left: 30px;
+        background: #c79d18;
+    }
+    .title h1 {
+        font-size: 28px;
+        font-weight: 400;
+        color: #fff;
+        position: absolute;
+        top: 140px;
+        left: 30px;
+        text-shadow: 0px 0px 15px #fff;
+        letter-spacing: 6px;
+    }
+    .title span {
+        font-family: "Aller Light";
+        font-weight: 100;
+        font-size: 18px;
+        color: #c79d18;
+        position: absolute;
+        top: 135px;
+        left: 30px;
+    }
+    .news-tab {
+        padding: 5px;
+        text-align: center;
+        background: #f7dc5c;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .news-box {
+        margin: 10px 0px;
+        display: inline-block;
+        text-align: center;
+    }
+    .index-news-title {
+        padding-right: 0;
+        text-align: left;
+    }
+    .index-news-title a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        text-align: left;
+    }
+    .index-news-date {
+        margin-left: 0px;
+        color: #282828;
+        float: left;
+    }
+    .index-news-line {
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #ddbc57;
+    }
+    .content {
+        padding-top: 0;
+    }
+    .page {
+        padding-top: 0;
+    }
+    .member_formTwoCol .member_content{
+        width: calc(100% - 1px);
+    }
+    .member_formThreeCol .member_content{
+        width: calc(100% - 1px);
+    }
+    .news-list-top {
+        margin: 10px 0;
+        padding: 10px;
+        border: 2px solid #f2b116;
+        background-color: #1c1d1e;
+    }
+
+    .news-list-date-top {
+        margin-top: 10px;
+        margin-left: -10px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .news-tab-top {
+        margin: 10px;
+        padding: 6px 10px;
+        font-size: 13px;
+        text-align: center;
+        background: #f7dc5c;
+        border-radius: 10px;
+        display: inline-block;
+        line-height: 100%;
+    }
+
+    .news-title-top {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #c3aa5a;
+    }
+
+    .news-title-top a {
+        font-size: 18px;
+        color: #c3aa5a;
+        text-decoration: none;
+    }
+
+    .news-title-top a:hover {
+        color: #ffe38a;
+    }
+
+    .top-box {
+        margin: -10px -10px 0 0;
+        padding: 8px;
+        color: #0f0f0f;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #f2b116;
+        float: right;
+    }
+    .dates-wrapper {
+        margin-top: 15px;
+    }
+    .bt-range {
+        margin-left: 15px;
+    }
+    .calendar-bt {
+        margin: 10px 0 !important;
+        width: 100% !important;
+    }
+}
+
+/* ========================================= 投注明細-表格 ========================================= */
+@media only screen and (max-width: 800px) {
+    /* Force table to not be like tables anymore */
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }

@@ -1,0 +1,2863 @@
+*{margin:0;padding:0;}
+body{font-size:12px;font-family: \5FAE\8EDF\6B63\9ED1\9AD4, Microsoft, Arial, Helvetica, sans-serif;color:#404040;background:#fff;text-align:left;line-height:150%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,efefef+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}
+img{border:none;}
+table{border-collapse:collapse;}
+ul,li,ol,dl,dd,dt{list-style-image:none;list-style-position:outside;list-style-type:none;}
+
+a{text-decoration:none;color:#04d;}
+a:hover{color:#f60;text-decoration:none;}
+.clear{clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{content:'';clear:both;display:block;}
+.hide,.ele-hide{display:none;}
+.show{display:block;}
+.R{color:red;}
+.R{color:red;}
+
+.noneprocessed {
+    color: #f94d4d;
+}
+
+.processed {
+    color: #89ce5c;
+}
+.input-info{
+	color: darkorange;
+	font-size: 12px;
+	padding-top:3px;
+}
+
+.form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+	margin-bottom: 15px;
+}
+.form-group:before {
+    display: table;
+    content: " ";
+}
+.form-group:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+.form-group label {
+    margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+    font-size: 15px;
+    color: #666;
+}
+input {
+    
+}
+.page-title  {
+    color: #f11100;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bonusinfobox{
+	background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 6px;
+	margin-bottom: 8px;
+}
+.bonusinfo {
+    color: #191919;
+    font-size: 16px;
+}
+.bonusinfo2 {
+    color: #ff7e7e;
+    font-size: 28px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+}
+.bonusinfo3 {
+    color: #ff0a10;
+	margin-top: 10px;
+    font-size: 30px;
+}
+.c-store {
+	float:right;
+}
+.c-store a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+	font-weight: 300;
+	width: 125px;
+    padding: 12px 25px;
+	border-radius: 3px;
+    transition: all 0.2s;
+    background: rgb(255,168,76);
+    background: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 );
+}
+
+.c-store a:hover {
+	color: #fff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+    background: rgb(86, 86, 86); /* Old browsers */
+}
+.c-store a:active ,.c-store a:focus {
+	color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+    background: rgb(86, 86, 86); /* Old browsers */
+
+}
+
+
+.submit_btn {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    width: 125px;
+    padding: 12px 25px;
+	border-radius: 3px;
+    transition: all 0.2s;
+    background: rgb(255,168,76);
+    background: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 );
+}
+
+.submit_btn:hover {
+	color: #fff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+    background: rgb(86, 86, 86); /* Old browsers */
+}
+.submit_btn:active ,.submit_btn:focus {
+	color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+    background: rgb(86, 86, 86); /* Old browsers */
+}
+
+
+
+
+
+
+
+#header-top {
+	position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 23px;
+    background-color: #303030;
+    /* border-bottom: 1px solid #e5e5e5; */
+    color: #fff;
+    font-size: 9px;
+}
+#header-topc {
+	margin: 0 auto;
+	max-width: 1000px;
+	height: 100%;
+}
+#header-topc .header-l {
+	float: left;
+	text-align: left;
+	line-height: 23px;
+}
+.header-l span:first-child{
+	display: inline-block;
+	max-width: 86px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.header-l a{
+	color: #666;
+}
+a.h-login{
+	color: #666;
+}
+.header-l a:hover,a.h-login:hover{
+	color: #ff4e00;
+}
+#header-topc .header-l a {
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 2px;
+}
+.header-s{
+    display: none;
+    position: relative;
+    float: left;
+    padding-top: 1px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.header-ma {
+    display: block;
+    width: 127px;
+    padding: 1px 1px 0px 27px;
+    text-align: left;
+    color: red;
+    border-bottom: none;
+    line-height: 19px;
+    background: url(/img/public/bw-icon-head.png?v=2) no-repeat 5px -164px;
+    margin-top: 4px;
+}
+.header-s:hover .header-ma {
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    border-bottom: 0;
+    margin-top: 3px;
+    margin-left: -1px;
+    padding-left: 27px;
+}
+.header-mb{
+    position: absolute;
+    left: 4px;
+    top: 25px;
+    display: none;
+    background: #fff;
+    border: 1px #BFBFBF solid;
+    border-top: none;
+    text-align: left;
+    width: 148px;
+    padding: 0 0 3px 7px;
+}
+.header-mb-ul li {
+    display: none;
+}
+.header-s:hover .header-mb {
+    display: block;
+}
+.header-s .header-mb .header-mbset {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+#header-topc .header-r {
+	float: right;
+}
+.site-nav .grouplist dt i{
+	background: url(/img/public/bw-icon-head.png?v=2) no-repeat;
+}
+.site-nav {
+	color: #666;
+	height: 30px;
+	margin: auto;
+	position: relative;
+	width: 580px;
+}
+.site-nav a {
+	color: #666;
+}
+.site-nav a:hover {
+	color: #F60;
+}
+.site-nav .quick-menu {
+	position: absolute;
+	right: 0px;
+	padding-top: 5px;
+}
+
+.menu-bd {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 22px;
+	z-index: 1;
+	background: #fff;
+	border: 1px solid #BFBFBF;
+	padding: 2px 0;
+}
+.menu-bd a {
+	display: block;
+	width: 94px;
+	line-height: 28px;
+	padding-left: 15px;
+	text-align: left;
+}
+.myAccount .menu-bd a:first-child,.seller-link .menu-bd a:first-child{
+	margin-top: 8px;
+}
+.quick-menu .menu:hover .menu-bd {
+	display: block;
+}
+.myAccount a {
+	text-decoration: none;
+}
+.head-wareCar {
+	margin: 0 6px 0 12px;
+}
+.head-wareCar .menu-hd {
+	padding: 3px 6px 2px 20px;
+}
+.head-wareCar i {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 15px;
+	height: 12px;
+	background: url(/img/public/bw-icon-head.png?v=2) 0px -184px no-repeat;
+}
+.head-wareCar .menu-hd {
+	padding-right: 5px;
+}
+#hWareCarNum{
+	font-weight: 700;
+}
+.mobile-app {
+	width: 94px;
+}
+.mobile-app .menu-bd{
+	width:145px;height:115px;
+}
+.s-qcode{
+	display: block;
+	width: 97px;
+	height: 104px;
+	background: #fff url(/img/public/8591app.jpg) no-repeat;
+	margin: 5px auto 0;
+}
+.sitemap .menu-hd {
+	width: 54px;
+}
+.sitemap .menu-bd, .online-help .menu-bd {
+	width: 250px;
+	right: -60px;
+}
+.sitemap .menu-bd-panel, .online-help .menu-bd-panel {
+	padding: 4px 8px;
+	text-align: left;
+	font-size: 13px;
+}
+.menu-bd-panel a {
+	display: inline-block;
+	width: auto;
+	padding: 0;
+	min-width: 68px;
+}
+.text-justfy a{
+	display: block;
+	width: 94px;
+}
+
+/*Mian 区域*/
+#container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.grid-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    height: 100px;
+    background-image: url(selltoppic.png);
+	background-position: bottom;
+    padding-top: 15px;
+    /* padding-left: 70px; */
+    box-sizing: border-box;
+}
+.points-transfer-landing-intro-title {
+    font-family: "InterstateLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #333333;
+    margin-bottom: 30px;
+    margin-top: 25px;
+	margin-left: 25px;
+    padding-left: 13px;
+    border-left: 2px solid #f9aa44;
+}
+.points-transfer-landing-intro-description {
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "InterstateLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 25px;
+}
+/*LOGO 及右边区域*/
+#header {
+	position: relative;
+	height: 70px;
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+60,f7a445+99 */
+background: #f1e767; /* Old browsers */
+background: -moz-linear-gradient(top, #f1e767 0%, #feb645 60%, #f7a445 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 60%,#f7a445 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f1e767 0%,#feb645 60%,#f7a445 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#f7a445',GradientType=0 ); /* IE6-9 */
+}
+/**簡潔頭部**/
+.fb-connect-hd{
+	padding-top: 22px!important;
+	height: 90px!important;
+}
+#logo {
+	margin: 0px;
+	position: absolute;
+	top: 18px;
+	left: 30px;
+	text-decoration: none;
+}
+#mb-logo {
+	float: left;
+	margin-top: 8px;
+	height: 36px;
+	padding: 5px 0 0 10px;
+	border-left: 1px solid #dedede;
+}
+.logo-img {
+	display: block;
+	text-decoration: none;
+    /* overflow: hidden; */
+    position: relative;
+    font-size: 30px;
+	line-height: 30px;
+    color: #333333;
+	font-weight: 300;
+}
+.logo-img:hover {
+	color: #333333;
+}
+.slogan{
+	position: absolute;
+	top: 22px;
+	left: 200px;
+	font-size:15px;
+	color:#666;
+	font-weight:700;
+	width: 134px;
+	height: 17px;
+	background: url(/img/index/slogan.png) no-repeat;
+}
+#header-menu {
+	text-align: right;
+	vertical-align: top;
+	font-size: 13px;
+	float:right;
+}
+#header-menu a{
+	vertical-align: top;
+	color: #666;
+}
+#header-menu a:hover{
+	color: #f60;
+}
+.app-qcode{
+	position: absolute;
+	display: block;
+	width: 156px;
+	height: 106px;
+	background: url(/img/news/app/qrcode02.png) no-repeat;
+	margin-left: 2px;
+}
+#header-menu .on {
+	color: #f00;
+	font-weight: bold;
+}
+#header-menu .head_helpper {
+	height: 13px;
+	margin: 0px 0 0 5px;
+	border-left: 1px solid #B9B9B9;
+	color: #666;
+	line-height: 100%;
+}
+.head_helpper i {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 2px 6px 0;
+	background: url(/img/public/bw-icon-head.png?v=2) no-repeat -104px -29px;
+	vertical-align: -3px;
+}
+#header-menu a {
+	display: inline-block;
+	padding: 0 1px;
+}
+/* 全站导航 */
+#channelMenu {
+	position: relative;
+	padding-left: 106px;
+}
+#channelMenu li {
+	position: relative;
+	float: left;
+	width: 78px;
+	height: 30px;
+	margin-right: 5px;
+	border: 1px solid #d6d6d6;
+	border-bottom: 0;
+	text-align: center;
+	line-height: 30px;
+	background: url(/img/public/searchbar_bg.jpg) 0px -79px repeat-x;
+	border-radius: 3px 3px 0 0;
+	cursor: pointer;
+}
+#channelMenu li a {
+	text-decoration: none;
+	display: block;
+}
+#channelMenu li a span {
+	display: inline-block;
+	height: 30px;
+	overflow: hidden;
+	color: #404040;
+	font-size: 15px;
+}
+
+#channelMenu li:hover {
+	background:#ff4e00;
+	border-color: #ff4e00;
+}
+#channelMenu li:hover span{
+	color: #fff;
+}
+#channelMenu .try-ico {
+	position: absolute;
+	top: -30px;
+	left: 26px;
+}
+#channelMenu li.on{
+	background:#ff4e00;
+	border-color: #ff4e00;
+}
+#channelMenu li.on span{
+	color: #fff;
+}
+#channelMenu .in a, #channelMenu .in a:hover {
+	background-position: 0 0;
+	color: #404040;
+	font-weight: 700;
+}
+
+#channelMenu .on a span, #channelMenu .on a:hover span {
+	background-position: right -87px;
+}
+#channelMenu .in a span, #channelMenu .in a:hover span {
+	background-position: right 0;
+	font-family: Verdana;
+}
+#channelMenu li.block-113{
+	position: absolute;
+	right: 40px;
+	width: 85px;
+	height: 31px;
+	background: none!important;
+	border: 0!important;
+	overflow: visible;
+	margin-left:45px;
+	margin-top: -2px;
+}
+li.block-113 a{
+	display: block;
+	height: 100%;
+}
+/*搜索条*/
+.searchBg {
+	position: relative;
+	z-index: 9;
+	height: 79px;
+	background:#FEEFC6 url(/img/public/searchbar_bg.jpg) repeat-x;
+	border: 1px solid #fe9669;
+	border-top-width: 2px;
+}
+.searchBg select {
+	height: 21px;
+	vertical-align: middle;
+}
+.searchBg #TS_gameName {
+	width: 215px;
+}
+.searchBg .ts_search {
+	height: 27px;
+	border: 1px solid #ffc17e;
+	color: #999;
+	padding-left: 8px;
+	font-size: 13px;
+	line-height: 27px;
+	cursor: pointer;
+	background: #fff;
+}
+.po_parent {
+	width: 792px;
+	margin: 14px auto 0;
+}
+.po_parent input {
+	float: left;
+}
+.searchBg input {
+	vertical-align: middle;
+}
+#TS_game{
+	background: none repeat scroll 0 0 white;
+	border: 2px solid #F87C2B;
+	display: none;
+	width: 210px;
+	height: 420px;
+	left: 0px;
+	overflow-y: scroll;
+	position: absolute;
+	top: 38px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
+}
+#topSelectGame {
+	width: 135px;
+	height: 20px;
+	border: 1px solid #CCC;
+	font-size: 12px;
+	color: #666;
+	line-height: 180%;
+	float: none;
+	display: inline-block;
+}
+#searchGame_lbtn {
+	width: 43px;
+	height: 21px;
+	border: none;
+	background: url(/img/public/bw-icon-head.png?v=2) -148px -22px no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+	float: none;
+	display: inline-block;
+}
+.searchBg #TS_gameList {
+	background-color: white;
+	margin-top: 14px;
+}
+#TS_gameList li {
+	height: 20px;
+	line-height: 20px;
+	padding-left: 3px;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#TS_gameList .add_list {
+	height: auto;
+	margin-top: 10px;
+	word-wrap: break-word;
+}
+.recentLookColor {
+	color: #0070C0;
+}
+.searchBg #TS_gameList li.n {
+	color: green;
+}
+.searchBg #TS_gameList li.h {
+	color: blue;
+}
+.searchBg #TS_gameList li.o {
+	color: #E57B01;
+}
+.searchBg #TS_gameList li:hover {
+	color: white;
+	background-color: #316AC5;
+}
+.TS_selArrow {
+	width: 14px;
+	height: 8px;
+	display: none;
+	background: url(/img/public/bw-icon-head.png?v=2) -128px -71px no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.TS_selArrow.one {
+	left: 0px;
+	top: 32px;
+}
+.TS_Selbtn {
+	width: 23px;
+	height: 23px;
+	display: block;
+	background: #fff url(/img/public/bw-icon-head.png?v=2) -34px -146px no-repeat;
+	position: absolute;
+}
+#TS_Selbtn_one {
+	right: 1px;
+	top: 3px;
+}
+.po_search {
+	position: relative;
+	z-index: 1;
+	float: left;
+	margin-right: 6px;
+}
+#searchServer_ul {
+	display: none;
+	background-color: white;
+	left: 0px;
+	position: absolute;
+	top: 38px;
+	color: gray;
+	width: 143px;
+	border: 2px solid #F87C2B;
+	text-align: left;
+	line-height: 180%;
+}
+#searchServer {
+	width: 136px;
+}
+#searchServer_ul li, #searchType_ul li {
+	padding-left: 10px;
+	cursor: pointer;
+}
+#searchServer_ul li:hover, #searchType_ul li:hover {
+	background-color: #316AC5;
+	color: white;
+}
+.TS_selArrow.two {
+	left: 0px;
+	top: 32px;
+}
+#TS_Selbtn_two {
+	right: 1px;
+	top: 3px;
+}
+#searchType {
+	width: 90px;
+}
+#searchType_ul {
+	background-color: white;
+	border: 2px solid #F87C2B;
+	color: gray;
+	display: none;
+	left: 0px;
+	line-height: 180%;
+	position: absolute;
+	text-align: left;
+	top: 38px;
+	width: 142px;
+}
+.TS_selArrow.three {
+	left: 0px;
+	top: 32px;
+}
+#TS_Selbtn_three {
+	right:1px;
+	top: 3px;
+}
+#searchKey {
+	width: 184px;
+}
+.h-left-top #searchKey{
+	width: 154px;
+}
+#searchBtn {
+	display: block;
+	float: left;
+	width: 84px;
+	height: 28px;
+	margin-left: 9px;
+	border: 0;
+	background: #ff4e00;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+	outline: none;
+}
+#searchBtn:active {
+	box-shadow: 0px 0px 5px rgba(0,0,0,.25) inset;
+	outline: none;
+}
+#searchBtn:hover {
+	background: #f80505;
+	border-color: #f24b02;
+	outline: none;
+}
+.top-srh-txt{
+	position: relative;
+	float: left;
+}
+.top-srh-list{
+	display: none;
+	position: absolute;
+	top:29px;
+	left: 0px;
+	width: 190px;
+	height: 207px;
+	background: #fff;
+	border: 2px solid #F87C2B;
+	overflow-y:auto;
+}
+.h-left-top .top-srh-list{
+	width: 160px;
+}
+.hotkwItem{
+	position: relative;
+	display: block;
+	padding: 0 10px;
+	color: #808080;
+	line-height: 180%;
+}
+.hotkwItem:hover{
+	background-color: #316AC5;
+    color: #fff;
+}
+/* 我最近浏览的商品 */
+.history {
+	margin-top: 5px;
+}
+.n_history {
+	position: relative;
+	float: left;
+	width: auto;
+	cursor: pointer;
+}
+.n-history-title{
+	position: relative;
+	font-size: 13px;
+	color: #ff5400;
+	height: 28px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	padding: 0 24px;
+}
+.n-history-title a{
+	color: #ff5400;
+}
+.n-history-title a:hover{
+	color: #5d81ab;
+}
+.h-list-text{
+	float: left;
+	display: block;
+	max-width: 90px;
+	width:90px\9;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	line-height: 28px;
+}
+.history-icon {
+	position: absolute;
+	left: 2px;
+	top: 7px;
+	width: 15px;
+	height: 15px;
+	background: url(/img/public/bw-icon-head.png?v=2) 0 -205px no-repeat;
+}
+.h-left-top .history-num {
+	display: block;
+	position: absolute;
+	top: -12px;
+	right: 9px;
+	width: 18px;
+	height: 20px;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center;
+	background: url(/img/public/bw-icon-head.png?v=2) -128px -116px no-repeat;
+	color: #fff;
+	font-weight: 700;
+}
+#title_down {
+	position: absolute;
+	top: 11px;
+	right: 7px;
+	width: 10px;
+	height: 5px;
+	background: url(/img/public/bw-icon-head.png?v=2) -41px -155px no-repeat;
+	transition: all .2s ease-in;
+}
+.n-history-title:hover #title_down{
+	top: 12px;
+	-moz-transform: rotate(-180deg);
+	-moz-transform-origin: 50% 30%;
+	-webkit-transform: rotate(-180deg);
+	-webkit-transform-origin: 50% 30%;
+	-o-transform: rotate(-180deg);
+	-o-transform-origin: 50% 30%;
+	transform: rotate(-180deg);
+	transform-origin: 50% 30%;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+.h-recent-l{
+	float: left;
+	line-height: 28px;
+	margin-left: 10px;
+	max-width: 540px;
+	width: 540px\9;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.h-recent-l span{
+	color: #8d5e41;
+	margin-right: 23px;
+}
+.h-recent-l a:hover span{
+	color: #ff5400;
+}
+#n_history_bd {
+	position: absolute;
+	left: 0;
+	top: 25px;
+	*width: 278px;
+}
+.n-his-bd-panel {
+	display: none;
+	margin-top: 2px;
+}
+.dingw {
+	overflow: hidden;
+	background: #fff;
+	border: 1px solid #fbc24f;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+}
+.dingw a{color: #04d;}
+.dingw a:hover{color: #fc6c2c;}
+.dingw ul {display: block;}
+.dingw ul li {
+	width: 225px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 14px;
+	border-bottom: 1px solid #dedede;
+	text-align: left;
+	overflow: hidden;
+}
+.dingw ul li:hover {
+	background-color: #fff5db;
+}
+.dingw ul li:hover a{color: #fc6c2c;}
+.dingw ul li span {
+	float: right;
+	color: #ff6400;
+	font-weight: bold;
+}
+.dingw ul li a:hover {
+	color: #FF0000;
+}
+/*底部*/
+#foot {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	box-shadow: 0px 0px 11px 1px #3333332e;
+	border-top: 2px solid #fdb946;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+#foot a {
+	text-decoration: none;
+	color: #fff;
+}
+#foot a:hover{
+	color: #fc6c2c;
+}
+.noteMsgBox {
+	border: 1px solid #D1D1D1;
+	text-align: left;
+	color: #666;
+	padding: 6px;
+	margin-bottom: 12px;
+	height: 35px;
+}
+.foot-links{
+	margin-top: 15px;
+}
+.foot-links li {
+	padding: 0 6px;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	*display: inline;
+}
+.foot-webs li {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	*display: inline;
+}
+.foot-webs .foot-webs-dot {
+	padding-left: 10px;
+	padding-right: 8px;
+	background: url(/img/public/bg/foot-dot.png) no-repeat scroll 0 8px;
+}
+.f-w-b li{margin: 0 10px 0 0;}
+.foot-copy-right {
+	color: #9a9a9a;
+}
+/**收購區**/
+.phone-game .searchBg{
+	border: 1px solid #007EF2;
+	border-top: 2px solid #007EF2;
+	background: linear-gradient(#B8DDFF,#A4D3FF);
+	background: #A4D3FF\9;
+}
+.phone-game .TS_Selbtn{
+	background-position: -122px -44px;
+}
+.phone-game .searchBg .ts_search{
+	border-color: #007EF2;
+}
+.phone-game .h-list-text,.phone-game .h-list-text a{
+	color: #007ef2;
+}
+.phone-game #title_down{
+	background-position: -128px -53px;
+}
+.phone-game .h-recent-l span{
+	color: #3e76a9;
+}
+.phone-game #searchBtn{
+	background: #007EF2;
+	border-color: #007EF2;
+}
+.phone-game #channelMenu li.on,.phone-game #channelMenu li:hover{
+	background: #007EF2;
+	border-color:#007EF2;
+}
+.phone-game .dingw{
+	border-color: #03a5e8;
+}
+/**歷史記錄左上*[[*/
+.h-left-top .searchBg{
+	height: 60px;
+}
+.h-left-top .po_parent{
+	position: relative;
+	margin: 14px 0 0 175px;
+}
+.h-left-top .history{
+	position: absolute;
+	top: 0px;
+	left: -155px;
+	border-radius: 13px;
+	font-size: 13px;
+	height: 26px;
+	margin: 0;
+	border: 1px solid #ffc17e;
+	background-color: #fff;
+}
+.h-left-top .n_history{
+	width: 133px;
+}
+.h-left-top .history-icon{
+	display: none;
+}
+.h-left-top .history .h-list-text{
+	line-height: 26px;
+	width: auto;
+	max-width: 100px;
+}
+.h-left-top .n-history-title{
+	padding: 0 14px;
+}
+.h-left-top .h-recent-l{
+	display: none;
+}
+/**歷史記錄左上*]]*/
+
+/**新版手機遊戲頭部*[[*/
+.blue-style .searchBg{
+	border-color: #66b9e7;
+	background: url(/img/public/phone-game-bg.jpg) repeat-x;
+}
+.blue-style #channelMenu li.on,.blue-style #channelMenu li:hover{
+	background: #038ae8;
+	border-color:#038ae8;
+}
+.blue-style .ts_search{
+	border-color:#66b9e7;
+}
+.blue-style .TS_Selbtn{
+	background-position: -63px -146px;
+}
+.blue-style #searchBtn{
+	border-color: #0281da;
+	background-color: #038ae8;
+}
+.blue-style #searchBtn:hover{
+	border-color: #0281da;
+	background-color: #027acd;
+}
+.blue-style #searchBtn:active{
+	border-color: #0281da;
+	background-color: #027acd;
+}
+.blue-style .history{
+	border: 1px solid #66b9e7;
+	background-color: #fff;
+}
+.blue-style #title_down{
+	background-position: -67px -155px;
+}
+.blue-style .h-list-text,.blue-style .h-list-text a{
+	color: #1f72a6;
+}
+.blue-style .dingw{
+	border-color: #66b9e7;
+}
+.blue-style #searchType{
+	width: 136px;
+}
+.blue-style #searchServer{
+	width: 90px;
+}
+/**新版手機遊戲頭部*]]*/
+/**點數卡頭部*[[*/
+.card-sell #channelMenu li.on,.card-sell #channelMenu li:hover{
+	background: #a40000;
+	border-color:#a40000;
+}
+.card-sell .slogan{
+	display: block;
+	position: static;
+}
+.card-sell #mb-logo{
+	height: 46px;
+	padding: 0 0 0 10px;
+}
+/**點數卡頭部*]]*/
+
+/**刊登商品頭部**/
+#navMenu {
+	width: 1000px;
+	height: 23px;
+	border-top: 1px solid #E8E8E8;
+	padding-top: 20px;
+}
+#navMenu div {
+	float: left;
+}
+#navMenu div i, #navMenu div b {
+	width: 15px;
+	display: block;
+	float: left;
+	height: 23px;
+	background: url(/img/public/nav_bg.png?v=2) no-repeat;
+}
+#navMenu span{
+	width: 238px;
+	display: block;
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	font-weight: bold;
+	color: #777;
+	font-size: 15px;
+}
+#navMenu .next span{
+	background-color: #EEE;
+}
+#navMenu .next b{
+	background-position: -21px -2px;
+}
+#navMenu .act span{
+	background-color: #F60;
+	font-weight: normal;
+	color: #FFF;
+}
+#navMenu .act b{
+	background-position: 0px -2px;
+}
+#navMenu .next .act-back{
+	background-position: -59px -2px;
+}
+/*賣家熱薦
+*************************/
+.rec-seller{font-size:18px; color:#FD5703;}
+.rec-hot{float:left; width:37px; height:29px; margin-top:-3px; background:url('/img/public/icon/hot.jpg') no-repeat;}
+.rec-seller a{float:right; font-size:13px; font-weight:normal;}
+
+.rec-shop{width:780px; margin:12px 0 20px; overflow:hidden;}
+.rec-wrap{float:left; width:166px; height:230px; margin-right:11px; padding:9px 8px; border:1px solid #d5bd99; border-top:3px solid #d5bd99;}
+.rec-mask{width:1000000px; height:252px;}
+.rec-img{
+	position:relative;
+	width:166px; 
+	height:157px; 
+	overflow:hidden;
+	border:1px solid #dedede;
+}
+.rec-img a{
+	display:table-cell;
+	*display:block;
+	text-align:center;
+	vertical-align:middle;
+	width:166px;
+	height:157px;
+	overflow: hidden;
+}
+.rec-img img{
+	width:164px;
+	border:none;
+	vertical-align:middle;
+}
+.rec-price{ margin:7px 0 0; color:#6f6f6f; font-size:12px;}
+.rec-money{color:#f60; font-weight:bold;}
+.rec-check{display:block; margin-top:2px; text-align:left; font-size:12px; color:#666;}
+.rec-title{height:34px; font-weight:normal; font-size:12px;}
+.rec-wait{text-align: center;font-size: 15px;font-weight: normal;line-height: 76px;}/* 手機遊戲左側導航 [[ */
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.fl-left {
+	float: left;
+	padding-right: 5px;
+}
+.fl-right {
+	float: right;
+}
+.red{
+	color:#f00;
+}
+.grey{
+	color:#999;
+}
+
+#content{
+	margin-bottom: 10px;
+}
+/*Mian 区域*/
+#container {
+	max-width: 1000px;
+}
+.left-content{
+	float: right;
+	width: 195px;
+}
+
+.right-content{
+	padding-top: 0px;
+	padding-bottom: 30px;
+	max-width:1000px;
+}
+
+a{
+	/*-webkit-transition: all 2s ease-in;
+	-moz-transition: all 2s ease-in;
+	-ms-transition: all 2s ease-in;
+	-o-transition: all 2s ease-in;
+	transition: all 2s ease-in;*/
+}
+
+
+/* 手機遊戲左側導航 ]] */
+
+
+
+/* 商品標題 [[ */
+.headline{
+	border:1px solid #d2e1f1;
+}
+	#hl-common {
+		padding: 6px 0;
+		text-align: center;
+	}
+	.hl-title{
+		float:left;
+	}
+	.c-gameName{
+		width:138px;
+		padding-left:8px;
+	}
+	.c-gameTitle{
+		width: 508px;
+		text-align: center;
+	}
+	.c-gamePrice{
+		width: 102px;
+  		padding: 0 0 0 30px;
+	}
+	.game-sort-up {
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		margin-left: 4px;
+		background: url(/img/mobileGame/bw-mobile.png) 0 -14px no-repeat;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+	.game-sort-down {
+		background-position: -16px -14px;
+	}
+	.c-num{
+		width: 64px;
+		text-align:center;
+	}
+	.c-publishTime{
+		width: 74px;
+		text-align:center;
+	}
+	#hl-common,#hl-currency,#hl-card,#hl-sou{
+		display:none;
+	}
+	#hl-card .c-num{
+		width:82px;
+	}
+	#hl-card .c-publishTime{
+		width:48px;
+	}
+	#hl-sou .c-gameTitle{
+		width:148px;
+		text-align: left;
+		text-indent:32px;
+	}
+	#hl-sou .c-gamePrice{
+		width:414px;
+		text-align:left;
+	}
+	#hl-sou .c-num{
+		width:62px;
+		text-align:right;
+	}
+	#hl-sou .c-publishTime{
+		width:104px;
+		text-indent:20px;
+	}
+/* 商品標題 ]] */
+
+
+/* 全部商品列表樣式 [[ */
+
+.w-line,.c-line,.g-line{
+	padding: 10px 0px;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 1px #e8e8e8;
+}
+
+.wl-wrap, .cl-wrap, .gl-wrap{
+	font-size: 12px;
+    text-align: center;
+}
+.points-reward-exchange{
+	color: #202020;
+    float: left;
+    width: 36%;
+    padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-left: 1px solid #c9c9ca;
+}
+.o-name{
+	width:140px;
+	text-align: left;
+}
+.o-name strong,.o-name p{
+	color:#3987c6;
+	cursor:pointer;
+}
+.o-name p{
+	padding-top:10px;
+}
+.o-name strong:hover,.o-name p:hover{
+	color:#f00;
+}
+.o-title{
+	width:586px;
+	text-align: left;
+}
+
+	.o-title-line{
+		height:22px;
+		margin-bottom:10px;
+		color:#8b8b8b;
+	}
+	.ajax-gameName a,.ajax-gameServer a{
+		color:#8b8b8b;
+	}
+	
+	.h-icon{
+		display:none;
+	}
+	.Recommended {
+		width: 38px;
+		margin-right: 10px;
+		color: #fff;
+		background: #f4571a;
+		line-height: 18px;
+		text-align: center;
+		font-weight: 300;
+		display: block;
+		float:inherit;
+		border-radius: 3px;
+	}
+	.star0,
+	.star01,.star1,
+	.star02,.star2,
+	.star03,.star3,
+	.star04,.star4,
+	.star05,.star5,
+	.star06,.star6,
+	.star7, .star8,
+	.star9, .star10,
+	.hear01,.hear1,
+	.hear02,.hear2,
+	.hear03,.hear3,
+	.hear04,.hear4,
+	.hear05,.hear5{
+		width: 12px;
+		height: 12px;
+		margin-top: 4px;
+	}
+	.star01,.star0{
+		background-position:0 0;
+	}
+	.star02,.star1{
+		background-position:-22px 0;
+	}
+	.star03,.star2{
+		background-position:-44px 0;
+	}
+	.star04,.star3{
+		background-position:-66px 0;
+	}
+	.star05,.star4{
+		background-position:-88px 0;
+	}
+	.star06,.star5{
+		background-position:-110px 0;
+	}
+	.hear01,.star6{
+		background-position:-132px 0;
+	}
+	.hear02,.star7{
+		background-position:-154px 0;
+	}
+	.hear03,.star8{
+		background-position:-176px 0;
+	}
+	.hear04,.star9{
+		background-position:-198px 0;
+	}
+	.hear05,.star10{
+		background-position:-220px 0;
+	}
+
+	.photo{
+		float: none;
+		display: inline-block;
+		width: 17px;
+		height: 13px;
+		background: url(/img/mobileGame/bw-mobile.png) -32px -14px no-repeat;
+		margin-top: 6px;
+	}
+	.contact {
+		width: 20px;
+		height: 20px;
+		background: url(/img/public/gif/contact.gif) no-repeat;
+		position: relative;
+		top: -4px;
+		margin-left: 8px;
+	}
+	
+	.question{
+		color:#666;
+		background:none;
+	}
+	.dealend{
+		float: none;
+		display: inline-block;
+		border:1px solid #3d7e04;
+		color:#3d7e04;
+		padding:0 2px;
+		font-weight: bold;
+		background:none;
+	}
+	.show-title{
+		font-size:15px;
+		background:none;
+		line-height:24px;
+	}
+	.o-title-line .show-title{
+		margin-top:0;
+	}
+	.show-title:visited {
+		color: #65728d;
+	}
+	.goods-type{
+		background:none;
+	}
+	.combine{
+		padding-left:11px;
+		color:#f60;
+		background:url(/img/mobileGame/combine.png) left 4px no-repeat;
+	}
+	.combine:hover{
+		text-decoration:underline;
+	}
+	.c-title-line .safe-tag {
+		width: auto;
+		margin: 0 14px 0 0;
+		color: #8b8b8b;
+		background: none;
+	}
+	
+	.trade-time{
+		margin-top: 0;
+		color:#458D05;
+		background:none;
+	}
+	
+
+.o-price{
+	width: 80px;
+	padding: 0 4px;
+	color:#ff6600;
+	text-align: right;
+	font-weight:bold;
+	font-size:15px;
+	margin:14px 0 0 0;
+}
+.o-pv{
+	width:48px;
+	margin: 14px 0 0;
+  	padding: 0 2px;
+}
+
+.o-trade{
+	width: 48px;
+	margin-top: 14px;
+  	padding: 0 2px;
+	color:#006600;
+	font-weight:bold;
+}
+/* 全部商品列表樣式 ]] */
+
+
+/* 遊戲幣列表樣式 [[ */
+.c-full{
+	color: #202020;
+    font-family: "InterstateRegular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	box-sizing: border-box;
+}
+.c-title{
+	color: #202020;
+    font-family: "InterstateRegular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    width: 53%;
+    padding-right: 30px;
+    padding-left: 25px;
+}
+
+	.c-title-line{
+		float:left;
+		margin-bottom: 2px;
+		max-width:496px;	
+	}
+	.c-title-key {
+		display: none;
+	}
+	.c-title-key strong {
+		color: #f00;
+		font-weight: 400;
+	}
+	.c-title-head {
+		margin-bottom: 6px;
+		overflow: hidden;
+		color: #565656;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 22px;
+		text-align: left;
+		margin-top: 3px;
+	}
+	.c-title-item ,.seller-id{
+		color: #999;
+		text-align: left;
+	}
+	.seller-id {
+		margin-right: 4px;
+	}
+	.c-title-link{
+		float:left;
+		min-width: 150px;
+	}
+
+	.c-title-link a{
+		color:#999;
+	}
+	.c-title-line .show-title{
+		width:auto;
+		max-width:496px;
+		color: #3366d5;
+		font-size:15px;
+		font-weight: 700;
+		line-height: 22px;
+	}
+	.c-title-line .show-title:visited {
+	  	color: #2d85c4;
+	}
+	.c-title-line .show-title:hover {
+		color: #fc6c2c;
+	}
+	.c-title-line .trade-time{
+		color:#8B8B8B;
+	}
+	.online{
+		width:10px;
+		height:16px;
+		margin-left:4px;
+		background:url(/img/wareList/online.gif) no-repeat;
+	}
+
+	.offline{
+		width:10px;
+		height:16px;
+		background:url(/img/wareList/notonline.gif) no-repeat;
+	}
+
+	.leave{
+		width:10px;
+		height:16px;
+		background:url(/img/wareList/leave.gif) no-repeat;
+	}
+
+.c-price{
+	display: inline;
+    font-family: "InterstateLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin: 0px;
+	line-height: 42px;
+    letter-spacing: -1px;
+}
+.c-store{
+}
+.c-pv{
+	width: 74px;
+	margin-top: 34px;
+	color: #65728d;
+}
+/* 遊戲幣列表樣式 ]] */
+
+
+/* 點數卡列表樣式 [[ */
+.g-title{
+	width:530px;
+	padding-right:2px;
+	text-align:left;
+}
+
+	.g-title-head a{
+		font-size:15px;
+	}
+
+	.g-title-list{
+
+	}
+	.g-title-list li{
+		color:#B2B2B2;
+		zoom:1;
+	}
+	.g-title-list li:after{
+		content:"";
+		clear: both;
+		display:block;
+	}
+	.g-title-list li span{
+		float:left;
+		width:72px;
+		text-align:left;
+	}
+	.auto{
+		width:26px;
+		height:14px;
+		background:url('/img/mobileGame/automatic.png') no-repeat;
+	}
+	.fast{
+		width:18px;
+		height:14px;
+		background-position:-260px -55px;
+	}
+
+.g-price{
+	width:90px;
+	padding:0 4px;
+	margin-right:8px;
+	margin-top:24px;
+	font-weight:bold;
+	font-size:15px;
+	color:#f60;
+	text-align:right;
+}
+.g-store{
+	width:58px;
+	padding:0 2px;
+	margin-top:24px;
+}
+.g-buy{
+	width:74px;
+	margin-top:24px;
+}
+	.g-buy-btn{
+		display:block;
+		width:73px;
+		height:22px;
+		background:url('/img/mobileGame/buyNow.png') no-repeat;
+	}
+
+/* 點數卡列表樣式 ]] */
+
+#search_none {
+	padding: 50px 0 0 130px;
+	width: 724px;
+}
+	#search_none i {
+		background: url("/img/wareList/list_v2.png") no-repeat -284px -80px;
+		width: 65px;
+		height: 65px;
+		display: block;
+		float: left;
+	}
+	#search_none .search_none_info {
+		float: left;
+		width: 470px;
+		margin-left: 15px;
+	}
+
+	#search_none .search_none_info span {
+		display: block;
+		line-height: 250%;
+	}
+
+/* 分页 [[ */
+#page-next{
+	display:block;
+	height:34px;
+	margin:10px 0;
+	border:1px solid #a3d0f4;
+	line-height:34px;
+	text-align:center;
+	color:#3267cd;
+	font-size:15px;
+	background:#e9f5ff;
+	cursor:pointer;
+}
+#page-next:hover{
+	color:#FF6600;
+}
+.page-limit{
+	margin:40px auto 20px;
+	line-height: 26px;
+	position: relative;
+	height:30px;
+  	text-align: center;
+}
+
+	.page-limit .pageNum,.page-limit .pageCurrentfang,.page-limit .last01,.page-limit .next01{
+		min-width: 14px;
+		padding:0px 5px;
+		margin: 0;
+		height:24px;
+		line-height:24px;
+		text-align:center;
+		border:1px solid #ccc;
+		color:#04d;
+		background:#fff;
+		font-weight: normal;
+		float: none;
+		display:inline-block;
+	}
+	.page-limit .last01{
+		width:38px;
+		padding-left: 14px;
+		background:url(/img/mobileGame/page_bg.png) 4px 4px no-repeat;
+		margin-left:4px;
+		vertical-align: bottom;
+	}
+
+	.page-limit .next01{
+		width:38px;
+		padding-right:14px;
+		vertical-align: bottom;
+		background:url(/img/mobileGame/page_bg.png) 6px -14px no-repeat;
+	}
+
+	.page-limit .pageNum:link,.page-limit .pageNum:visited{
+		float:none;
+		font-weight:normal;
+		padding:0 5px;
+		margin: 0 1px;
+	}
+	.page-limit .pageNum:hover{
+		border:1px solid #f60;
+		color:#f60;
+		background:#fff;
+		text-decoration: none;
+	}
+	.page-limit .pageCurrentfang{
+		border:1px solid #f60;
+		color:#f60;
+		font-weight:bold;
+		background:#ffece1;
+	}
+	.pageLast{
+		color:#999999;
+		margin-left:0px;
+		float:none;
+	}
+	.pageLast .R{
+		color:#ff6600;
+		font-size:13px;
+		font-weight:bold;
+		margin:0 4px;
+	}
+	#pageDD{
+		display:inline-block;
+		height:24px;
+		line-height: 24px;
+	}
+
+	.pageFirst{
+		color:#999999;
+		margin-left:8px;
+		float:none;
+	}
+	
+/* 分页 ]] */ 
+
+#j_loading{
+	display:none;
+	left:50%;
+	margin-left:-85px;
+}
+
+
+/************  新點數卡購買 [[ ************/
+.new-card{
+	border:1px solid #55aeff;
+	border-top:4px solid #55aeff;
+	background:#fdf9ea;
+}
+
+	.nc-title{
+		width:532px;
+		margin:20px auto 10px;
+		border-bottom:1px solid #eceae2;
+		text-align:center;
+		font-weight:normal;
+		font-size:13px;
+		color:#666666;
+		line-height:40px;
+	}
+	.nc-title img{
+		vertical-align:top;
+	}
+	.nc-title strong{
+		font-size:18px;
+	}
+	/* 購買信息 */
+	.nc-list{
+		
+	}
+	.nc-list li{
+		margin-top:30px;
+		zoom:1;
+	}
+	.nc-list li:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.nc-item,.nc-con{
+		float:left;
+		font-size:15px;
+	}
+	.nc-item{
+		width:152px;
+		margin-right:10px;
+		text-align:right;
+	}
+	.nc-item-price,.nc-item-num{
+		line-height:31px;
+	}
+	.more-card{
+		font-size:13px;
+		margin-left:6px;
+	}
+	.price-sel,.num-sel{
+		float:left;
+		width:68px;
+		height:28px;
+		margin-right:10px;
+		border:1px solid #9c9c9c;
+		text-align:center;
+		line-height:28px;
+		color:#000;
+		font-size:13px;
+		background:#fff;
+		cursor:pointer;
+	}
+	.ps-sel,.ns-box{
+		width:68px;
+		height:28px;
+		padding-left:2px;
+		border:1px solid #9c9c9c;
+		color:#404040;
+		font-size:12px;
+		background:#fff;
+		outline:none;
+	}
+	#other_price{
+		height:30px;
+		width: 72px;
+		padding-left:0;
+		cursor:pointer;
+	}
+	.ns-box{
+		color:#999;
+	}
+	.price-sel:hover,.price-selected,
+	.num-sel:hover,.num-selected{
+		color:#ff6905;
+		width:66px;
+		height:26px;
+		line-height:26px;
+		border:2px solid #55aeff;
+	}
+	.price-selected,.num-selected{
+		font-weight:bold;
+	}
+	.price-selected option{
+		color:#404040;
+	}
+	.price-sel-out,.num-sel-out{
+		background:#cccccc;
+	}
+	.price-sel-out:hover{
+		width:68px;
+		height:28px;
+		line-height:28px;
+		border:1px solid #9c9c9c;
+		color:#404040;
+		background:#cccccc;
+
+	}
+
+	#num-msg{
+		display:none;
+	}
+	.total-price{
+		color:#ff6702;
+	}
+
+
+
+	/* 注意事項 */
+	.card-notice{
+		padding-left:16px;
+		padding-bottom:18px;
+		font-size:13px;
+		color:#666666;
+	}
+	.card-notice dt{
+		margin:20px 0 10px;
+	}
+	.card-notice dd{
+		padding-left:56px;
+		line-height:22px;
+	}
+/************  新點數卡購買 ]] ************/
+
+
+
+/***** 新版手机游戏列表 [[ *****/
+/* 面包屑导航 
+*************************/
+.crumb {
+	height: 50px;
+    /* padding-left: 20px; */
+    line-height: 40px;
+    box-shadow: 0px 0px 11px 1px #3333332e;
+    z-index: 10;
+    position: relative;
+}
+.menu{
+	padding-left: 20px;
+}
+.menu li:first-child{
+	border-left: 1px solid #ccc;
+}
+.menu li{
+	padding: 0px 15px;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+}
+.menu li a{
+	font-size: 16px;
+	height: 50px;
+    line-height: 50px;
+    padding: 0px 10px;
+	box-sizing: border-box;
+}
+.menu li.active a{
+	border-bottom: 4px solid #FFA539;
+}
+.crumb-item {
+	float: left;
+	color: #000;
+	font-size: 12px;
+}
+.crumb-item:hover{
+	color: #333;
+}
+.crumb-arrow {
+	float: left;
+	width: 5px;
+	height: 9px;
+	margin: 16px 8px;
+	color: #666;
+	background: url(/img/mobileGame/bw-mobile.png) no-repeat;
+}
+.crumb-space {
+	float: left;
+	width: 10px;
+}
+.crumb-tag {
+	position: relative;
+	display: none;
+	float: left;
+	height: 20px;
+	margin: 9px 10px 0 0;
+	padding: 0 24px 0 4px;
+	color: #666;
+	border: 1px solid #e5e5e5;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+.crumb-tag-close {
+	position: absolute;
+	display: none;
+	right: 6px;
+	top: 5px;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	line-height: 10px;
+	font-family: Arial,sans-serif;
+}
+.crumb-tag:hover {
+	color: #666;
+	border-color: #f00;
+}
+.crumb-tag-close:hover {
+	color: #f00;
+}
+
+.crumb-tag-on,.crumb-tag-on .crumb-tag-close {
+	display: block;
+}
+
+
+/* 條件篩選 
+*************************/
+.filter {
+	margin-bottom: 20px;
+	padding: 0 12px;
+	border: 1px solid #e5e5e5;
+}
+.filter-section {
+	padding: 10px;
+	padding-right: 0;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.filter-section-item {
+	display: none;
+}
+.filter-section-price .filter-label,.filter-section-price .filter-all,.filter-list-price{
+	padding-top: 2px;
+}
+.filter-float {
+	height: 45px;
+}
+.filter-float .filter-label {
+	padding-top: 2px;
+}
+.headline .filter-wrap-fixed {
+	position: fixed;
+	top: 0;
+	width: 780px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-top: 3px solid #b7d0e7;
+	z-index: 2;
+}
+.filter-section:last-child {
+	border-bottom: none;
+}
+/*.filter-wrap-fixed .filter-section:last-child{
+	position: absolute;
+	top: 0;
+	left: 426px;
+	width: 340px;
+}*/
+.filter-label {
+	float: left;
+	width: 94px;
+	text-align: left;
+}
+.filter-label-left {
+	float: left;
+}
+
+.filter-all ,.filter-item-name{
+	float: left;
+	width: 56px;
+	height: 20px;
+	margin-right: 26px;
+	line-height: 18px;
+	color: #666;
+	text-align: center;
+}
+.filter-list {
+	float: left;
+	max-width: 776px;
+}
+
+.filter-list li {
+	float: left;
+}
+.filter-list-item li {
+	margin-bottom: 6px;
+}
+.filter-list li a {
+	display: block;
+	min-width: 56px;
+	height: 20px;
+	margin-right: 20px;
+	padding: 0 2px;
+	line-height: 18px;
+	color: #666;
+	text-align: center;
+}
+.filter-list li .filter-on,.filter-list li a:hover, .filter-on ,.filter-on:hover{
+	color: #fff;
+	background: #038ae8;
+	border-radius: 10px;
+}
+.filter-price-box {
+	float: left;
+	margin-top: -3px;
+}
+.filter-price,
+.filter-key-box {
+	width: 52px;
+	height: 24px;
+	padding-left: 10px;
+	border: 1px solid #e5e5e5;
+	outline: none;
+}
+.filter-list .filter-price-search,
+.filter-list .filter-price-search:hover,
+.filter-key .filter-key-btn,
+.filter-key .filter-key-btn:hover {
+	display: inline-block;
+	width: 42px;
+	min-width: 42px;
+	padding: 2px 0;
+	color: #fff;
+	background: #f4f4f4 url(/img/mobileGame/bw-mobile.png) 15px -107px no-repeat;
+	border: 1px solid #e7e4e4;
+	border-radius: 0;
+	text-align: center;
+	text-indent: -9999em;
+}
+.filter-list .filter-price-search,
+.filter-list .filter-price-search:hover {
+	vertical-align: middle;
+}
+.filter-key .filter-key-btn:hover,
+.filter-list .filter-price-search:hover {
+	background: #5facf3 url(/img/mobileGame/bw-mobile.png) 15px -126px no-repeat;
+	border: 1px solid #53a6f2;
+}
+.filter-key .filter-key-btn:active ,
+.filter-list .filter-price-search:active {
+	box-shadow: 2px 2px 5px #4c98ea inset;
+}
+.filter-show {
+	margin-left: 30px;
+}
+.filter-show input {
+	margin-right: 10px;
+}
+.filter-key-box {
+	width: 125px;
+}
+.filter-key .filter-key-btn {
+	display: inline-block;
+	margin-left: -5px;
+	padding: 2px 0;
+	vertical-align: middle;
+}
+.filter-title {
+	display: none;
+	text-align: center;
+	font-size: 13px
+}
+.filter-title-store {
+	width: 44px;
+	margin-left: 72px;
+}
+.filter-title-check {
+	width: 64px;
+}
+.filter-wrap-fixed .filter-title{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+/* 左侧扩展
+*************************/
+.ext-section-fixed {
+	position: fixed;
+	background: #fff;
+}
+.ext-section {
+	width: 195px;
+}
+.extension {
+	position: relative;
+	margin-bottom: 18px;
+	border: 1px solid #d2e1f1;
+}
+.extension-tab {
+	border: none;
+}
+.extension:last-child {
+	margin-bottom: 10px;
+}
+.trade {
+	padding: 30px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #ff8800;
+}
+.trade p {
+	margin: 15px 0 22px;
+	color: #ff9b19;
+	font-size: 15px;
+}
+.trade p strong {
+	font-size: 24px;
+	font-weight: 300;
+}
+.pub-link,.feedback-pop {
+	display: block;
+	height: 30px;
+	color: #fff;
+	font-size: 13px;
+	background: #f4b24b;
+	line-height: 30px;
+}
+.pub-link:hover{
+	background: #EDA029;
+}
+.pub-link i,.feedback-pop i {
+	display: inline-block;
+	width: 20px;
+	height: 22px;
+	margin-right: 15px;
+	background: url(/img/mobileGame/bw-mobile.png) -37px -54px no-repeat;
+	vertical-align: middle;
+}
+.pub-link:hover,.feedback-pop:hover {
+	color: #fff;
+}
+
+.trade-list-title {
+	height: 27px;
+	padding-left: 10px;
+	font-weight: 300;
+	font-size: 15px;
+	background: #ecf7ff;
+	border-bottom: 1px solid #d2e1f1;
+	line-height: 27px;
+}
+.trade-list-slide {
+	height: 146px;
+	padding: 10px 10px 0;
+	overflow: hidden;
+}
+.trade-list-scroll {
+	padding-left: 20px;
+}
+.trade-list-scroll li {
+	color: #c0c0c0;
+	line-height: 28px;
+	list-style: initial;
+}
+.trade-list-scroll li a {
+	color: #333;
+}
+.trade-list-scroll .trade-list-price {
+	font-weight: 300;
+	color: #f00;
+}
+.ext-tab-btn {
+
+}
+.ext-tab-btn li {
+	float: left;
+	margin-right: -1px;
+	padding: 6px 8px;
+	border: 1px solid #e5e5e5;
+	cursor: pointer;
+}
+.ext-tab-btn  .ext-btn-on {
+	padding-top: 5px;
+	border-top: 2px solid #96bde1;
+	border-bottom: none;
+}
+.ext-tab-section {
+	display: none;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	height: 130px;
+	width: 194px;
+}
+.ext-tab-section ul {
+	padding: 8px 0 8px 28px;
+}
+.ext-tab-section li {
+	color: #c0c0c0;
+	list-style: initial;
+	line-height: 28px;
+}
+.ext-tab-section li a {
+	color: #333;
+}
+.feedback {
+	text-align: center;
+}
+.feedback-ico {
+	display: inline-block;
+	width: 34px;
+	height: 52px;
+	margin-right: 12px;
+	background: url(/img/mobileGame/bw-mobile.png) 0 -52px no-repeat;
+	vertical-align: middle;
+}
+.feedback p {
+	margin: 6px 0 12px;
+}
+
+.feedback-btn {
+	float: left;
+	width: 96px;
+	height: 38px;
+	font-size: 12px;
+	background: #f5f5f5;
+	border-top: 1px solid #e5e5e5;
+	line-height: 38px;
+	text-align: center;
+}
+.feedback-good {
+	color: #fb6666;
+	border-right: 1px solid #e5e5e5;
+}
+.feedback-bad {
+	color: #7b8ea7;
+}
+.feedback-btn i {
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	margin: -8px 2px 0 0;
+	background: url(/img/mobileGame/bw-mobile.png) -35px -32px no-repeat;
+	vertical-align: middle;
+}
+.feedback-bad i {
+	margin-top: 0;
+	background-position: -56px -32px;
+}
+.feedback-btn strong {
+	font-weight: 300;
+}
+.feedback-cut {
+	display: inline-block;
+	border-left: 1px solid #e5e5e5;
+	height: 30px;
+}
+.feedback-pop {
+	background: #5facf3;
+}
+.feedback-pop i {
+	width: 26px;
+	height: 23px;
+	background-position: -61px -54px;
+}
+
+.sort-head {
+	height: 2px;
+	background: #ecf7ff;
+	border-bottom: 1px solid #d2e1f1;
+}
+.sort-head-left {
+	position: absolute;
+	padding: 8px 0 0 20px;
+}
+.sort-item {
+	float: left;
+	height: 22px;
+	margin-right: 6px;
+	padding: 0 6px;
+	color: #666;
+	font-size: 13px;
+	border: 1px solid #e5e5e5;
+	background: #f1f1f1;
+	background: linear-gradient(#fafafa 0%,#f4f4f4 100%);
+	background: -moz-linear-gradient(#fafafa 0%,#f4f4f4 100%);
+	background: -ms-linear-gradient(#fafafa 0%,#f4f4f4 100%);
+	line-height: 22px;
+}
+.sort-item i {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-left: 2px;
+	background: url(/img/mobileGame/bw-mobile.png?t=2) -34px -81px no-repeat;
+	vertical-align: middle;
+}
+.sort-item-act i {
+	background-position: -50px -81px;
+}
+.sort-item-up i {
+	background-position: -81px -81px;
+}
+.sort-item:hover {
+	color: #666;
+}
+.sort-head-right {
+	float: right;
+	padding-top: 10px;
+	padding-right: 19px;
+}
+
+
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-2 {
+    width: 16.66666667%;
+	float: left;
+}
+.col-md-7 {
+    width: 58.33333333%;
+	float: left;
+}
+
+.form-control {
+    width: 100%;
+}
+select.form-control2 {
+    background-image: url(../images/select-icon.png);
+	background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 95% 15px;
+}
+
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 3px 12px 3px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #3c3c3c;
+	box-sizing: border-box;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.radio-box {
+	background-color: #f7f7f7;
+	padding: 10px 15px;
+	margin-left: 15px;
+    margin-right: 15px;
+	box-sizing: border-box;
+}
+.radio-box .radio-inline{
+	padding: 0px 0px;
+	margin-right: 10px;
+}
+.control-label {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 16px;
+    color: #b9b9b9;
+    font-weight: 500;
+}
+.form-control2[disabled] {
+    background-color: #dcdcdc;
+    color: #a7a7a7;
+    cursor: no-drop;
+}
+.btn-search {
+  color: #fff;
+  width:100px;
+  padding: 6px 12px;
+	border-radius: 3px;
+    transition: all 0.2s;
+    background: rgb(255,168,76);
+    background: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 );
+}
+.btn-search:hover,.btn-search:active,.btn-search:focus {
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+    background: rgb(86, 86, 86); /* Old browsers */
+}
+
+.datebar {
+	 
+}
+.datebar .form-group2{
+	width: 25%;
+	display: inline-block;
+	float: left;
+}
+.form-group label.s_title{
+	line-height: 34px
+}
+.select-s{
+    background-image: url(select-icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px 15px;
+	background-origin: content-box;
+}
+.no-padding{
+	padding: 0px;
+}
+@media (min-width: 700px) {
+	.member_table {
+    background: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	border-top: 1px solid #b1b1b1;
+	border-left: 1px solid #b1b1b1;
+    }
+    .member_table td:before {
+        display: none;
+    }
+
+    .member_table th, .member_table td {
+        display: table-cell;
+		font-size: 14px;
+		font-weight: 400;
+        padding: 0.25em 0.5em;
+	    text-align: left;
+        border-right: 1px solid #b1b1b1;
+    }
+    .member_table tr {
+        border-bottom: 1px solid #b1b1b1;
+        background-color: #eaeaea;
+}
+
+	.member_table tr:nth-of-type(2n) {
+		background-color: rgb(247, 247, 247);
+	}
+    .member_table th {
+        background-color: #fbb044;
+        color: #000;
+        letter-spacing: 1px;
+		font-weight: 400;
+    }
+    .member_table th button {
+        float: right;
+    }
+    .member_table th:first-child,
+    .member_table td:first-child {
+        padding-left: 0;
+    }
+
+    .member_table th:last-child,
+    .member_table td:last-child {
+        padding-right: 0;
+        height: auto;
+        line-height: inherit;
+
+    }
+
+    .member_table th,
+    .member_table td {
+        padding: 0.5em !important;
+    }
+}
+@media (max-width: 420px), handheld and (orientation: Portrait) {
+	.datebar .form-group2 {
+    width: 80%;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 10px;
+    }
+    #container {
+    padding-left: 15px;
+	padding-right: 15px;
+    }
+	.foot-copy-right {
+    padding-left: 10px;
+	padding-right: 10px;
+    }
+	.c-title {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+    }
+	.c-full {
+    padding-right: 20px;
+    padding-left: 20px;
+	}
+	.points-reward-exchange {
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    border-top: 1px solid #c9c9ca;
+    border-left: 0px solid #c9c9ca;
+	box-sizing: border-box;
+    }
+	.c-line{
+    padding: 20px 0px 0px 0px;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 1px #e8e8e8;
+    }
+	.c-store,.c-price,.c-store a,.submit_btn {
+    width: 100%;
+    box-sizing: border-box;
+	}
+	.c-price {
+    padding-bottom: 10px;
+    /* float: left; */
+    display: block;
+	}
+	.trade {
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #ff8800;
+    }
+	.radio-box .radio-inline {
+    padding: 5px 0px;
+	text-align: left;
+	display: block;
+    }
+	#hl-common {
+    padding: 0px 0px 25px 0px;
+    }
+	.bonusinfo2 {
+	font-size: 22px;
+    line-height: 100%;
+    }
+	.right-content {
+    padding-bottom: 0px;
+   }
+	#header-topc {
+	padding-left: 15px;
+	padding-right: 15px;
+    }
+	.grid-container {
+    padding-top: 10px;
+	}
+	.col-md-2 {
+    width: 100%;
+    float: left;
+    }
+	.col-md-7 {
+    width: 100%;
+    float: left;
+    }
+	.col-lg-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+   }
+	.control-label {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+	}
+	.page-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+	.btn-search {
+    width: 100%;
+	}
+	/* member_table*/
+.member_table {
+    background: #2f2f2f;
+    margin-bottom: 0px;
+}
+
+.panel-body2 .member_table {
+    background: #2f2f2f;
+    margin-bottom: 0px;
+}
+
+.member_table tr {
+    border-bottom: 1px solid #484848;
+    background-color: #eaeaea;
+}
+
+.member_table tr:nth-of-type(2n) {
+    background-color: rgb(247, 247, 247);
+}
+
+.member_table th {
+    margin: 0.5em 1em;
+    background-color: #fbb044;
+}
+
+.member_table {
+    width: 100%;
+}
+
+.member_table th {
+    display: none;
+}
+
+.member_table td {
+    display: block;
+    color: #000;
+    position: relative;
+    padding-left: 7em;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    min-height: 25px;
+    border-bottom: 1px solid #b1b1b1;
+}
+.member_table td:last-child {
+    border-bottom: 1px solid #484848;
+}
+.member_table td hr {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 0;
+    border-top: 1px solid rgba(238, 238, 238, 0.4);
+}
+
+.member_table td a {
+    background: #2a71af;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    transition: all 0.2s;
+}
+
+.member_table td a:hover {
+    color: #fff;
+    background: #043978;
+}
+
+.member_table td a:active, .member_table td a:focus {
+    color: #fff;
+    background: #043978;
+}
+
+.member_table td::before {
+    content: attr(data-th) " :";
+    color: #424242;
+    font-weight: 500;
+    width: 6.5em;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 8px;
+    background-color: #fbb044;
+    height: 100%;
+    padding: 9px 0px 3px 5px;
+}
+.member_table tr:nth-of-type(2n) td::before {
+    background-color: #fbcb44;
+}
+/*.member_table td:last-child{
+    height: 45px;
+    line-height: 45px;
+}
+.member_table td:last-child::before{
+    line-height: 22px;
+}*/
+.member_table th, .member_table td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.member_table td:nth-child(3) {
+    text-align: left;
+}
+.menu li {
+    padding: 0px 5px;
+}
+}

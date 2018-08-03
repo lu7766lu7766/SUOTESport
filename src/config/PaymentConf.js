@@ -1,0 +1,88 @@
+/**
+ * type
+ */
+const ATM = 'ATM' // ATM
+const CVS = 'CVS' // 超商繳費
+const Credit = 'Credit' //信用卡繳費
+const WebATM = 'WebATM' // WebATM
+const BankCard = 'BANK_CARD' //	銀行卡
+
+/**
+ * method
+ */
+const CVS_OK = 'CVS_OK' //	OK便利超商
+const CVS_FAMILY = 'CVS_FAMILY' //	全家
+const CVS_HILIFE = 'CVS_HILIFE' //	萊爾富
+const CVS_IBON = 'CVS_IBON' //	7-11
+const ATM_BANK_TAISHIN = 'ATM_BANK_TAISHIN' //	ATM - 台新
+const ATM_BANK_ESUN = 'ATM_BANK_ESUN' //	ATM - 玉山
+const ATM_BANK_BOT = 'ATM_BANK_BOT' //	ATM - 台銀
+const ATM_BANK_FUBON = 'ATM_BANK_FUBON' //	ATM - 富邦
+const ATM_BANK_CHINATRUST = 'ATM_BANK_CHINATRUST' //	ATM - 中信
+const ATM_BANK_FIRST = 'ATM_BANK_FIRST' //	ATM - 第一
+const ATM_BANK_LAND = 'ATM_BANK_LAND' //	ATM - 土地
+const ATM_BANK_CATHAY = 'ATM_BANK_CATHAY' //	ATM - 國泰
+const ATM_BANK_TACHONG = 'ATM_BANK_TACHONG' //	ATM - 大眾
+const WEB_ATM_BANK_TAISHIN = 'WEB_ATM_BANK_TAISHIN' //	WEBATM - 台新
+const WEB_ATM_BANK_ESUN = 'WEB_ATM_BANK_ESUN' //	WEBATM - 玉山
+const WEB_ATM_BANK_BOT = 'WEB_ATM_BANK_BOT' //	WEBATM - 台銀
+const WEB_ATM_BANK_FUBON = 'WEB_ATM_BANK_FUBON' //	WEBATM - 富邦
+const WEB_ATM_BANK_CHINATRUST = 'WEB_ATM_BANK_CHINATRUST' //	WEBATM - 中信
+const WEB_ATM_BANK_FIRST = 'WEB_ATM_BANK_FIRST' //	WEBATM - 第一
+const WEB_ATM_BANK_CATHAY = 'WEB_ATM_BANK_CATHAY' //	WEBATM - 國泰
+const WEB_ATM_BANK_MEGA = 'WEB_ATM_BANK_MEGA' //	WEBATM - 兆豐
+const WEB_ATM_BANK_LAND = 'WEB_ATM_BANK_LAND' //	WEBATM - 土地
+const WEB_ATM_BANK_TACHONG = 'WEB_ATM_BANK_TACHONG' //	WEBATM - 大眾
+const WEB_ATM_BANK_SINOPAC = 'WEB_ATM_BANK_SINOPAC' //	WEBATM - 永豐
+const CREDIT_CREDIT_CARD = 'CREDIT_CREDIT_CARD' //	信用卡 - 信用卡
+
+export default {
+	payment_id: {
+		ATM: 1,
+		WebATM: 2,
+		CVS: 4,
+		Credit: 8
+	},
+	payment_type: {
+		ATM,
+		WebATM,
+		CVS,
+		Credit,
+		BankCard
+	},
+	payment_method: {
+		CVS: {
+			CVS_IBON,
+			CVS_FAMILY,
+			CVS_HILIFE,
+			CVS_OK
+		},
+		ATM: {
+			ATM_BANK_TAISHIN,
+			ATM_BANK_ESUN,
+			ATM_BANK_BOT,
+			ATM_BANK_FUBON,
+			ATM_BANK_CHINATRUST,
+			ATM_BANK_FIRST,
+			ATM_BANK_LAND,
+			ATM_BANK_CATHAY,
+			ATM_BANK_TACHONG,
+			WEB_ATM_BANK_TAISHIN
+		},
+		WebATM: {
+			WEB_ATM_BANK_BOT,
+			// WEB_ATM_BANK_ESUN, // 付款失敗
+			WEB_ATM_BANK_FUBON,
+			WEB_ATM_BANK_CHINATRUST,
+			WEB_ATM_BANK_FIRST,
+			WEB_ATM_BANK_CATHAY,
+			WEB_ATM_BANK_MEGA,
+			WEB_ATM_BANK_LAND,
+			WEB_ATM_BANK_TACHONG,
+			WEB_ATM_BANK_SINOPAC
+		},
+		Credit: {
+			CREDIT_CREDIT_CARD
+		}
+	}
+}
